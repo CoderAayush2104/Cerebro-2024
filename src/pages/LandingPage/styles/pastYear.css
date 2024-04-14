@@ -17,4 +17,9 @@
     text-transform: uppercase;
     color:var(--main-white);
 }
+@media screen and (max-width : 768px) {
+    .past-year-title{
+        font-size: 32px;
+    }
+}
 

@@ -6,6 +6,7 @@
     padding: 0.866% 0;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
+    
   }
   
   #hexGrid:after {
@@ -15,6 +16,7 @@
   }
   
   .hex {
+    background-color: red;
     position: relative;
     list-style-type: none;
     float: left;
@@ -25,6 +27,7 @@
   }
   
   .hex * {
+    
     position: absolute;
     visibility: visible;
     outline: 1px solid transparent;  /* fix for jagged edges in FF on hover transition */
@@ -157,4 +160,15 @@
     #hexGrid {
       font-size: 13px;
     }
+  }
+
+
+  /* Main Css */
+  .timeline-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    font-size: 36px;
+    color: var(--main-white);
   }
