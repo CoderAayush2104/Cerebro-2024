@@ -1,0 +1,68 @@
+.event-page {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-image: url(../../../assets/event-bg.png);
+    background-repeat:repeat-y;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+}
+
+.event-page-title {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.event-page-navbar {
+    font-family: 'Orbitron';
+    display: flex;
+    gap: 24px;
+}
+
+.event-page-nav-item {
+    position: relative;
+    color: var(--main-white-2);
+    padding: 10px;
+    font-size: 20px;
+    transition: 300ms ease-out;
+    width: auto;
+
+}
+
+.event-page-nav-item::after {
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background: var(--light-blue);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+}
+
+.event-page-nav-item:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.event-page-nav-item:hover {
+    color: var(--light-blue);
+    cursor: pointer;
+}
+.event-page-cards-container{
+   margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}

@@ -1,0 +1,19 @@
+<svg width="146" height="146" viewBox="0 0 146 146" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="mix-blend-mode:multiply">
+<path d="M141.799 2.71107V133.437L126.515 143.293H4.20098V12.5671C10.1698 8.71812 13.5162 6.5601 19.4849 2.71107H141.799ZM146 0.00195312H17.7448L16.5144 0.795426L8.87244 5.72346L1.23046 10.6515L0 11.445V146.002H128.255L129.486 145.209L144.77 135.352L146 134.559V0.00195312Z" fill="#0088BE"/>
+</g>
+<path d="M141.801 2.70996H17.3866L4.20312 11.2115V143.292H128.618L141.801 134.79V2.70996Z" fill="url(#paint0_radial_401_404)"/>
+<path d="M141.801 2.70996H17.3866L4.20312 11.2115V143.292H128.618L141.801 134.79V2.70996Z" fill="black" fill-opacity="0.4"/>
+<path d="M137.799 6.5625V132.269C133.311 135.069 130.795 136.639 126.308 139.439H8.20312V13.7322C12.6905 10.9323 15.2065 9.36243 19.694 6.5625H137.799Z" fill="url(#pattern0_401_404)"/>
+<path d="M137.799 6.5625V132.269C133.311 135.069 130.795 136.639 126.308 139.439H8.20312V13.7322C12.6905 10.9323 15.2065 9.36243 19.694 6.5625H137.799Z" fill="#121145" fill-opacity="0.35"/>
+<path opacity="0.8" d="M140.226 3.7259V133.015L125.865 142.276H5.77845V12.9868L20.1396 3.7259H140.226ZM141.801 2.70999H19.487L4.20312 12.5661V143.292H126.517C132.486 139.443 135.832 137.285 141.801 133.436V2.70999Z" fill="#0088BE"/>
+<defs>
+<pattern id="pattern0_401_404" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_401_404" transform="matrix(0.00100423 0 0 0.000979432 -0.14552 -0.00924413)"/>
+</pattern>
+<radialGradient id="paint0_radial_401_404" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(73.0022 73.0009) rotate(180) scale(91.144 58.7757)">
+<stop stop-color="#45329C"/>
+<stop offset="0.91677" stop-color="#090040"/>
+</radialGradient>
+</defs>
+</svg>

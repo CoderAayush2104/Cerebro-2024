@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url(./assets/bg-img.png);
+
+  background-size:cover; 
+  background-position: top;
+  /* background-repeat:repeat; */
+  background-attachment: fixed;
+  width: 100%;  
+  min-width: 320px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: ethnocentric;
+  src: url(./assets/fonts/ethnocentric.woff);
+
+}
+
+body {
+  margin: 0;
+  font-family: ethnocentric;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--background-colour);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-white); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-blue); 
+}
