@@ -30,7 +30,10 @@
   .event-page-card:hover .event-page-card-content {
     transform: rotateY(180deg);
   }
-  
+  .event-page-card:active .event-page-card-content {
+    transform: rotateY(180deg);
+  }
+
   .event-page-card-front, .event-page-card-back {
     display: flex;
     flex-direction: column;

@@ -17,7 +17,7 @@ function PastYearCarousel() {
           interval={3000}
           transitionTime={500}
           width={window.innerWidth * 0.8}
-          dynamicHeight={true}
+      
           showThumbs={false}
           showArrows={true}
           showIndicators={false}
@@ -30,17 +30,9 @@ function PastYearCarousel() {
             <img src={"/src/assets/astronaut2.png"} />
           </div>
           <div className="slide-img">
-            <img src={"/src/assets/bg-img.png"} />
+            <img src={"/src/assets/moon.png"} />
           </div>
-          <div className="slide-img">
-            <img src={"/src/assets/event-bg.png"} />
-          </div>
-          <div className="slide-img">
-            <img src={"/src/assets/astronaut.png"} />
-          </div>
-          <div className="slide-img">
-            <img src={"/src/assets/astronaut2.png"} />
-          </div>
+     
         </Carousel>
     </div>
   );
