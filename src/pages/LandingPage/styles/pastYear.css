@@ -16,6 +16,7 @@
     line-height: 60px;
     text-transform: uppercase;
     color:var(--main-white);
+    margin-bottom: 40px;
 }
 @media screen and (max-width : 768px) {
     .past-year-title{

@@ -8,7 +8,7 @@ import TeamPage from './pages/Teams/TeamPage';
 import TimelinePage from './pages/Timeline/TimelinePage';
 function App() {
   return (
-    <BrowserRouter> {/* Wrap Routes with BrowserRouter */}
+    <BrowserRouter> 
  
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
