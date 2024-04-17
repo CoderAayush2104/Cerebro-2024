@@ -6,7 +6,7 @@ const TeamCard = ({imagePath}) => {
   return (
     <div className="team-card">
         <div className="team-card-photo">
-            <img src={`/assets/teams/${imagePath}`} alt='profile'/>
+            <img src={`/assets/teams/${imagePath}`} alt='profile' loading="lazy"/>
         </div>
         <div className="team-card-title">Gadha</div>
         <div className="team-card-subtitle"> Ghode ke upar</div>

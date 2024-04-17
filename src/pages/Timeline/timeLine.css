@@ -31,7 +31,7 @@
 	 width: 100%;
 
 	 color: var(--main-white);
-	 background-image: url(/assets/timeline/timeline-cell-bg.png);
+	 background-image: url(/assets/timeline/timeline-cell-bg.svg);
    background-repeat: no-repeat;
   background-position: center;
 	 clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
