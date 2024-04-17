@@ -1,25 +1,23 @@
 import React from "react";
 
 import "./eventCard.css";
-const EventCard = ({ imagePath }) => {
-  console.log(imagePath);
+const EventCard = ({ event }) => {
+  console.log(event)
   return (
     <div className="event-page-card">
       <div className="event-page-card-content">
         <div className="event-page-card-front">
-          <img src={`/assets/event-card/${imagePath}`} alt="Event Info" loading="lazy" />
-          <span className="event-page-card-title">Vision</span>
-          <span className="event-page-card-info">12:30pm - 1:30pm</span>
+          <img src={`/assets/event-card/event-info.png`} alt="Event Info" loading="lazy" />
+          <span className="event-page-card-title">{event.title}</span>
+          <span className="event-page-card-info">{event.timings}</span>
         </div>
         <div className="event-page-card-back">
-          <span className="event-page-card-title">Vision</span>
+          <span className="event-page-card-title">{event.title}</span>
           <span className="event-page-card-info">
-            Sed ut perspiciatis unde omnis iste uis nostrum exercitationem ullam
-            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-            consequatur?
+            {event.description}
           </span>
-          <span className="event-page-card-prizes">Prizes : 3K</span>
-          <button className="event-page-card-button">Register</button>
+          <span className="event-page-card-prizes">Prizes : {event.prizes}</span>
+        
         </div>
       </div>
     </div>

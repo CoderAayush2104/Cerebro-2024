@@ -11,16 +11,12 @@ function App() {
  
   return (
     <BrowserRouter> 
-    
-
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
           <Route path="/events" element={<EventPage />} />
           <Route path="/teams" element={<TeamPage />} />
           <Route path="/timeline" element={<TimelinePage />} />
         </Routes>
-
-    
     </BrowserRouter>
   );
 }

@@ -1,146 +1,33 @@
-import React from 'react'
-import "./timeLine.css"
-import Navbar from '../../components/Navbar'
-
+import React from "react";
+import "./timeLine.css";
+import Navbar from "../../components/Navbar";
+import timeLine from "../../data/timeline.json"
 const TimelinePage = () => {
-  return (
-    <div className='timeline-page'>
-        <Navbar/>
-        <span className="timeline-title">Timeline</span>
-		<ul className="hex-grid__list">
-    <li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-	<li className="hex-grid__item">
-        <div className="hex-grid__content">
-			<span className="timeline-event-title">Vision</span>
-			<span className="timeline-event-date">12:30pm to 1:30pm</span>
-		</div>
-    </li>
-   
+	const renderEventCards = () => {
 	
-</ul>
-
-
+	
+	
+		return timeLine.map((event,index) =>(
+		
+				<li className="hex-grid__item" key={index}>
+					<div className="hex-grid__content">
+						<span className="timeline-event-title">{event.title}</span>
+						<span className="timeline-event-date">{event.timings}</span>
+					</div>
+				</li>
+			)
+		);
+	}
+	
+  return (
+    <div className="timeline-page">
+      <Navbar />
+      <span className="timeline-title">Timeline</span>
+      <ul className="hex-grid__list">
+			{renderEventCards()}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default TimelinePage
+export default TimelinePage;

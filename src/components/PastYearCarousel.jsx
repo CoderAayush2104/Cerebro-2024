@@ -6,7 +6,7 @@ import "./pastYearCarousel.css"
 function PastYearCarousel() {
 
 
-  
+  const isMobileDevice = window.matchMedia("only screen and (max-width: 760px)").matches;
 
   return (
     <div>
@@ -16,7 +16,7 @@ function PastYearCarousel() {
           autoPlay
           interval={3000}
           transitionTime={500}
-          width={window.innerWidth * 0.8}
+          width={isMobileDevice ? window.innerWidth * 0.8 : window.innerWidth * 0.6}
       
           showThumbs={false}
           showArrows={true}
@@ -24,13 +24,16 @@ function PastYearCarousel() {
           showStatus={false}
         >
           <div className="slide-img">
-            <img src={"/assets/astronaut.png"} />
+            <img src={"/assets/landing-page-carousel/1.jpg"} loading='lazy' />
           </div>
           <div className="slide-img">
-            <img src={"/assets/astronaut2.png"} />
+            <img src={"/assets/landing-page-carousel/2.jpg"} loading='lazy' />
           </div>
           <div className="slide-img">
-            <img src={"/assets/moon.png"} />
+            <img src={"/assets/landing-page-carousel/3.jpg"} loading='lazy'/>
+          </div>
+          <div className="slide-img">
+            <img src={"/assets/landing-page-carousel/4.jpg"} loading='lazy'/>
           </div>
      
         </Carousel>

@@ -22,5 +22,9 @@
     .past-year-title{
         font-size: 32px;
     }
+    .past-year-section{
+        height: 50vh;
+        padding: 0px 10px 0px 10px;
+    }
 }
 
