@@ -2,11 +2,12 @@ import React from "react";
 
 import "./eventCard.css";
 const EventCard = ({ imagePath }) => {
+  console.log(imagePath);
   return (
     <div className="event-page-card">
       <div className="event-page-card-content">
         <div className="event-page-card-front">
-          <img src={`/assets/event-card/event-info.png`} alt="Event Info" />
+          <img src={`/assets/event-card/${imagePath}`} alt="Event Info" />
           <span className="event-page-card-title">Vision</span>
           <span className="event-page-card-info">12:30pm - 1:30pm</span>
         </div>
