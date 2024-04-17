@@ -6,15 +6,12 @@ import "./App.css"
 import EventPage from "./pages/Events/EventPage"
 import TeamPage from './pages/Teams/TeamPage';
 import TimelinePage from './pages/Timeline/TimelinePage';
-import Loading from './components/Loading';
+
 function App() {
-  const [loading,setLoading] = useState(true);
-  setTimeout(() => setLoading(false),3000);
+ 
   return (
     <BrowserRouter> 
-    {loading ? (
-      <Loading/>
-    ) : (
+    
 
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
@@ -22,7 +19,7 @@ function App() {
           <Route path="/teams" element={<TeamPage />} />
           <Route path="/timeline" element={<TimelinePage />} />
         </Routes>
-    )}
+
     
     </BrowserRouter>
   );
