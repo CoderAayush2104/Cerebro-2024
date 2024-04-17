@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: rgba(255, 255, 255, 0.87);
-  background-image: url(./assets/bg-img.png);
+  background-image: url(/public/assets/bg-img.png);
 
   background-size:cover; 
   background-position: top;
@@ -24,7 +24,7 @@
 }
 @font-face{
   font-family: ethnocentric;
-  src: url(./assets/fonts/ethnocentric.woff);
+  src: url(/public/assets/fonts/ethnocentric.woff);
 
 }
 
