@@ -15,7 +15,7 @@
 
   .event-page-card-content {
 
-    background-image: url(../assets/event-card/card.svg);
+    background-image: url(/public/assets/event-card/card.svg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
