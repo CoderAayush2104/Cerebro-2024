@@ -1,7 +1,7 @@
 import React from 'react'
 import "./timeLine.css"
 import Navbar from '../../components/Navbar'
-import CellBg from "/assets/timeline/timeline-cell-bg.png"
+
 const TimelinePage = () => {
   return (
     <div className='timeline-page'>

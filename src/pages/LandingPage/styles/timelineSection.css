@@ -9,7 +9,7 @@
     justify-content: center;
     color: var(--main-white);
     
-    background-image: url("../../../assets/bg-timeline-section.png"),url("../../../assets/bg-img.png");
+    background-image: url(/assets/bg-timeline-section.png),url(/assets/bg-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

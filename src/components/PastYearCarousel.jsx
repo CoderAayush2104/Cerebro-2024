@@ -24,13 +24,13 @@ function PastYearCarousel() {
           showStatus={false}
         >
           <div className="slide-img">
-            <img src={"/public/assets/astronaut.png"} />
+            <img src={"/assets/astronaut.png"} />
           </div>
           <div className="slide-img">
-            <img src={"/public/assets/astronaut2.png"} />
+            <img src={"/assets/astronaut2.png"} />
           </div>
           <div className="slide-img">
-            <img src={"/public/assets/moon.png"} />
+            <img src={"/assets/moon.png"} />
           </div>
      
         </Carousel>
