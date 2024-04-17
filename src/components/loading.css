@@ -1,0 +1,22 @@
+.loading-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.loading-spinner{
+    object-fit: contain;
+    
+    animation: spinning infinite 2s linear;
+}
+@keyframes spinning {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
