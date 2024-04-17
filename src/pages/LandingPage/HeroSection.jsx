@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/heroSection.css";
-import astronaut from "../../assets/astronaut.png";
+import astronaut from "/assets/astronaut.png";
 import Navbar from "../../components/Navbar";
 const HeroSection = () => {
   return (

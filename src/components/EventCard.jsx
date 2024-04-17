@@ -6,7 +6,7 @@ const EventCard = ({ imagePath }) => {
     <div className="event-page-card">
       <div className="event-page-card-content">
         <div className="event-page-card-front">
-          <img src={`/src/assets/event-card/${imagePath}`} alt="Event Info" />
+          <img src={`/public/assets/event-card/${imagePath}`} alt="Event Info" />
           <span className="event-page-card-title">Vision</span>
           <span className="event-page-card-info">12:30pm - 1:30pm</span>
         </div>

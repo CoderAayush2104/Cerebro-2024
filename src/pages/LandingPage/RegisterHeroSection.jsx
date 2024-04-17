@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/registerHeroSection.css"
-import astronaut from "../../assets/astronaut2.png"
+import astronaut from "/assets/astronaut2.png"
 const RegisterHeroSection = () => {
   return (
     <div className="register-hero-section">
