@@ -27,16 +27,16 @@
           {
               "title": "Tech-Hunt",
               "description": "Participants form teams and engage in a dynamic quest, solving technical challenges spanning coding, hardware, algorithms, ciphers to collect flags.",
-              "prizes": "₹16,500",
+              "prizes": "₹10,000",
               "form_link": "https://example.com/robotics-competition-registration",
               "timings": "All Day",
-              "image_name": "tech_hunt_image.jpg"
+              "image_name": "tech_hunt_image.png"
           }
       ],
       "Finance": [{
               "title": "Prudentia",
               "description": "A virtual stock trading competition where participants trade stocks to maximize returns within a given timeframe.",
-              "prizes": "₹15,000",
+              "prizes": "₹6,00,000",
               "form_link": "https://example.com/stock-market-simulation-registration",
               "timings": "Online",
               "image_name": "prudentia_image.jpg"
@@ -97,7 +97,7 @@
               "prizes": "₹12,000",
               "form_link": "https://example.com/league-of-legends-tournament-registration",
               "timings": "Online",
-              "image_name": "bgmi_tournament_image.jpg"
+              "image_name": "bgmi_tournament_image.png"
           },
           {
               "title": "Call of Duty: Mobile",
@@ -113,7 +113,7 @@
               "prizes": "₹6,000",
               "form_link": "https://example.com/league-of-legends-tournament-registration",
               "timings": "Online",
-              "image_name": "rocket_league_image.jpg"
+              "image_name": "rocket_league_image.png"
           },{
             "title" : "Gaming Arcade",
             "description" : "Immerse yourself in exhilarating matches of FIFA, F1 racing, and Tekken, showcasing skill and strategy in intense gaming showdowns.",

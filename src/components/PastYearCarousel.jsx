@@ -35,6 +35,9 @@ function PastYearCarousel() {
           <div className="slide-img">
             <img src={"/assets/landing-page-carousel/4.jpg"} loading='lazy'/>
           </div>
+          <div className="slide-img">
+            <img src={"/assets/landing-page-carousel/5.jpg"} loading='lazy'/>
+          </div>
      
         </Carousel>
     </div>
