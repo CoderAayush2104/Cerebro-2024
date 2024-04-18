@@ -12,7 +12,10 @@
     height: 400px;
     perspective: 500px;
   }
-
+  .event-image{
+    width: 100%;
+    height: 60%;
+  }
   .event-page-card-content {
     
     background-image: url(/public/assets/event-card/card.svg);

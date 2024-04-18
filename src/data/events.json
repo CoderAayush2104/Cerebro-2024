@@ -1,122 +1,134 @@
 {
-    "events": {
-      "Technical": [
-        {
-          "title": "Code-Clash",
-          "description": "Solo online programming competition featuring multiple algorithmic programming tasks to test participants' skills, with winners selected based on ranking and performance.",
-          "prizes": "₹10,000",
-          "form_link": "https://example.com/hackathon-registration",
-          "timings": "Online"
-        },
-        {
-          "title": "Build It Better",
-          "description": "Solo web development competition emphasizing creativity and technical proficiency, participants create websites using provided assets within six hours, judged on design friendliness, metadata, and asset utilization, submission via Google Form.",
-          "prizes": "₹10,000",
-          "form_link": "https://example.com/tech-talk-registration",
-          "timings": "Online"
-        },
-        {
-          "title": "Trio-Codejam",
-          "description": "Trio-Codejam: A collaborative coding challenge where individuals tackle intricate puzzles in 20-minute segments, building upon each other's work without direct communication, testing coding skills and teamwork in an exhilarating format.",
-          "prizes": "₹16,500",
-          "form_link": "https://example.com/robotics-competition-registration",
-          "timings": "4:00PM - 5:30PM"
-        },
-        {
-            "title": "Tech-Hunt",
-            "description": "Participants form teams and engage in a dynamic quest, solving technical challenges spanning coding, hardware, algorithms, ciphers to collect flags.",
-            "prizes": "₹16,500",
-            "form_link": "https://example.com/robotics-competition-registration",
-            "timings": "All Day"
+  "events": {
+      "Technical": [{
+              "title": "Code-Clash",
+              "description": "Solo online programming competition featuring multiple algorithmic programming tasks to test participants' skills, with winners selected based on ranking and performance.",
+              "prizes": "₹10,000",
+              "form_link": "https://example.com/hackathon-registration",
+              "timings": "Online",
+              "image_name": "code_clash_image.jpg"
+          },
+          {
+              "title": "Build It Better",
+              "description": "Solo web development competition emphasizing creativity and technical proficiency, participants create websites using provided assets within six hours, judged on design friendliness, metadata, and asset utilization, submission via Google Form.",
+              "prizes": "₹10,000",
+              "form_link": "https://example.com/tech-talk-registration",
+              "timings": "Online",
+              "image_name": "build_it_better_image.jpg"
+          },
+          {
+              "title": "Trio-Codejam",
+              "description": "Trio-Codejam: A collaborative coding challenge where individuals tackle intricate puzzles in 20-minute segments, building upon each other's work without direct communication, testing coding skills and teamwork in an exhilarating format.",
+              "prizes": "₹16,500",
+              "form_link": "https://example.com/robotics-competition-registration",
+              "timings": "4:00PM - 5:30PM",
+              "image_name": "trio_codejam_image.jpg"
+          },
+          {
+              "title": "Tech-Hunt",
+              "description": "Participants form teams and engage in a dynamic quest, solving technical challenges spanning coding, hardware, algorithms, ciphers to collect flags.",
+              "prizes": "₹16,500",
+              "form_link": "https://example.com/robotics-competition-registration",
+              "timings": "All Day",
+              "image_name": "tech_hunt_image.jpg"
           }
       ],
-      "Finance": [
-        {
-          "title": " Prudentia",
-          "description": "A virtual stock trading competition where participants trade stocks to maximize returns within a given timeframe.",
-          "prizes": "₹15,000",
-          "form_link": "https://example.com/stock-market-simulation-registration",
-          "timings": "Online"
-        },
-        {
-          "title": "Paper trading",
-          "description": "The event is a paper trading simulation that recreates the atmosphere of traditional floor trading. Participants experience the dynamics of buying and selling stocks in a simulated trading pit, where they physically line up to place their orders.",
-          "prizes": "₹5,000",
-          "form_link": "https://example.com/finance-workshop-registration",
-          "timings": "1:00PM - 2:30PM"
-        }
-      ],
-      "Robotics": [
-        {
-          "title": "Gear Up",
-          "description": "Team-based competition: Design, build, and program robots to race on a custom high-speed lap track, competing for the fastest completion time to claim victory.",
-          "prizes": "₹10,000",
-          "form_link": "https://example.com/stock-market-simulation-registration",
-          "timings": "3:30PM - 4:00PM"
-        },
-        {
-          "title": "Robo Rumble",
-          "description": "Team-based robotics competition showcasing innovation and strategic prowess as custom-built robots clash in a circular arena, requiring adaptability for victory.",
-          "prizes": "₹10,000",
-          "form_link": "https://example.com/finance-workshop-registration",
-          "timings": "7:00PM - 7:30PM"
-        },
-        {
-            "title": "Cyber Cup",
-            "description": "Robo Soccer Tournament is a thrilling competition designed to test the technical ingenuity and teamwork of engineering students. This team-based event will see student-built autonomous or manually controlled robots battle it out on a miniaturized soccer field.",
-            "prizes": "₹21,000",
-            "form_link": "https://example.com/finance-workshop-registration",
-            "timings": "5:30PM - 7:00PM"
+      "Finance": [{
+              "title": "Prudentia",
+              "description": "A virtual stock trading competition where participants trade stocks to maximize returns within a given timeframe.",
+              "prizes": "₹15,000",
+              "form_link": "https://example.com/stock-market-simulation-registration",
+              "timings": "Online",
+              "image_name": "prudentia_image.jpg"
+          },
+          {
+              "title": "Paper trading",
+              "description": "The event is a paper trading simulation that recreates the atmosphere of traditional floor trading. Participants experience the dynamics of buying and selling stocks in a simulated trading pit, where they physically line up to place their orders.",
+              "prizes": "₹5,000",
+              "form_link": "https://example.com/finance-workshop-registration",
+              "timings": "1:00PM - 2:30PM",
+              "image_name": "paper_trading_image.jpg"
           }
       ],
-      "Design": [
-        {
+      "Robotics": [{
+              "title": "Gear Up",
+              "description": "Team-based competition: Design, build, and program robots to race on a custom high-speed lap track, competing for the fastest completion time to claim victory.",
+              "prizes": "₹10,000",
+              "form_link": "https://example.com/stock-market-simulation-registration",
+              "timings": "3:30PM - 4:00PM",
+              "image_name": "gear_up_image.jpg"
+          },
+          {
+              "title": "Robo Rumble",
+              "description": "Team-based robotics competition showcasing innovation and strategic prowess as custom-built robots clash in a circular arena, requiring adaptability for victory.",
+              "prizes": "₹10,000",
+              "form_link": "https://example.com/finance-workshop-registration",
+              "timings": "7:00PM - 7:30PM",
+              "image_name": "robo_rumble_image.jpg"
+          },
+          {
+              "title": "Cyber Cup",
+              "description": "Robo Soccer Tournament is a thrilling competition designed to test the technical ingenuity and teamwork of engineering students. This team-based event will see student-built autonomous or manually controlled robots battle it out on a miniaturized soccer field.",
+              "prizes": "₹21,000",
+              "form_link": "https://example.com/finance-workshop-registration",
+              "timings": "5:30PM - 7:00PM",
+              "image_name": "cyber_cup_image.jpg"
+          }
+      ],
+      "Design": [{
           "title": "UI InFuzion",
           "description": "UI InFuzion: Solo UI/UX competition spotlighting creativity and strategic design, showcasing captivating interfaces to impress judges and shape digital design.",
           "prizes": "₹9,000",
           "form_link": "https://example.com/web-design-challenge-registration",
-          "timings": "Online"
-        }
+          "timings": "Online",
+          "image_name": "ui_infuzion_image.png"
+      }],
+      "Gaming": [{
+              "title": "Valorant",
+              "description": "Experience elite Valorant competition with high-stakes matches, interactive features, and seasoned commentators, defining the future of esports excellence.",
+              "prizes": "₹15,000",
+              "form_link": "https://example.com/league-of-legends-tournament-registration",
+              "timings": "Online",
+              "image_name": "valorant_image.png"
+          },
+          {
+              "title": "BGMI Tournament",
+              "description": "Teams of four engage in intense Battle Royale combat across diverse maps, strategizing to outmaneuver rivals amidst dynamic challenges, accumulating points to advance to the thrilling finale for the prestigious title of champions.",
+              "prizes": "₹12,000",
+              "form_link": "https://example.com/league-of-legends-tournament-registration",
+              "timings": "Online",
+              "image_name": "bgmi_tournament_image.jpg"
+          },
+          {
+              "title": "Call of Duty: Mobile",
+              "description": "The teams would be randomly divided into two pools whose matches would be conducted in two different lobbies. From each pool, top two teams would be selected and the top 4 teams would compete in league pattern",
+              "prizes": "₹7,500",
+              "form_link": "https://example.com/league-of-legends-tournament-registration",
+              "timings": "Online",
+              "image_name": "cod_mobile_image.png"
+          },
+          {
+              "title": "Rocket League",
+              "description": "Fast-paced, adrenaline-fueled competition where teams battle it out in soccer matches with rocket-powered cars.",
+              "prizes": "₹6,000",
+              "form_link": "https://example.com/league-of-legends-tournament-registration",
+              "timings": "Online",
+              "image_name": "rocket_league_image.jpg"
+          },{
+            "title" : "Gaming Arcade",
+            "description" : "Immerse yourself in exhilarating matches of FIFA, F1 racing, and Tekken, showcasing skill and strategy in intense gaming showdowns.",
+            "prizes" : "",
+            "timings" : "All Day",
+            "image_name" : "gaming_arcade.png"
+          }
       ],
-      "Gaming": [
-        {
-          "title": "Valorant",
-          "description": "Experience elite Valorant competition with high-stakes matches, interactive features, and seasoned commentators, defining the future of esports excellence.",
-          "prizes": "₹15,000",
+      "Maths": [{
+          "title": "Equinox",
+          "description": "test mathematical proficiency and teamwork through a multi-round buzzer competition, with the team accumulating the highest points emerging as the winner.",
+          "prizes": "₹5,000",
           "form_link": "https://example.com/league-of-legends-tournament-registration",
-          "timings": "Online"
-        },
-        {
-            "title": "BGMI Tournament",
-            "description": "Teams of four engage in intense Battle Royale combat across diverse maps, strategizing to outmaneuver rivals amidst dynamic challenges, accumulating points to advance to the thrilling finale for the prestigious title of champions.",
-            "prizes": "₹12,000",
-            "form_link": "https://example.com/league-of-legends-tournament-registration",
-            "timings": "Online"
-          },
-          {
-            "title": "Call of Duty: Mobile",
-            "description": "The teams would be randomly divided into two pools whose matches would be conducted in two different lobbies. From each pool, top two teams would be selected and the top 4 teams would compete in league pattern",
-            "prizes": "₹7,500",
-            "form_link": "https://example.com/league-of-legends-tournament-registration",
-            "timings": "Online"
-          },
-          {
-            "title": "Rocket League",
-            "description": "Fast-paced, adrenaline-fueled competition where teams battle it out in soccer matches with rocket-powered cars.",
-            "prizes": "₹6,000",
-            "form_link": "https://example.com/league-of-legends-tournament-registration",
-            "timings": "Online"
-          }
-      ],
-      "Maths": [
-        {
-            "title": "Equinox",
-            "description": "test mathematical proficiency and teamwork through a multi-round buzzer competition, with the team accumulating the highest points emerging as the winner.",
-            "prizes": "₹5,000",
-            "form_link": "https://example.com/league-of-legends-tournament-registration",
-            "timings": "10:00AM - 12:00AM"
-          }
-      ]
-    }
+          "timings": "10:00AM - 12:00AM",
+          "image_name": "equinox_image.jpg"
+      }]
   }
-  
+}
