@@ -17,16 +17,17 @@ const TeamPage = () => {
           <span className="team-page-nav-item">Gaming</span>
         </div>
         <div className="team-page-cards-container">
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
-          <TeamCard imagePath={"profile.png"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+          <TeamCard imagePath={"Akshat.jpg"} />
+ 
         
         </div>
       </div>

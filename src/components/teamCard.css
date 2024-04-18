@@ -18,8 +18,8 @@
     background-size: cover;
 }
 .team-card-photo >img{
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     object-fit: cover;
 }
 .team-card-title{

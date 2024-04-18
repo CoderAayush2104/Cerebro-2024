@@ -6,10 +6,10 @@ const TeamCard = ({imagePath}) => {
   return (
     <div className="team-card">
         <div className="team-card-photo">
-            <img src={`/assets/teams/${imagePath}`} alt='profile' loading="lazy"/>
+            <img src={`/assets/teams/members/${imagePath}`} alt='profile' loading="lazy"/>
         </div>
-        <div className="team-card-title">Gadha</div>
-        <div className="team-card-subtitle"> Ghode ke upar</div>
+        <div className="team-card-title">Akshat Patel</div>
+        <div className="team-card-subtitle">President</div>
         <div className="team-card-socials">
             <img src={linkedIn} alt='LinkedIn'/>
             <img src={instagram} alt='Instagram'/>
