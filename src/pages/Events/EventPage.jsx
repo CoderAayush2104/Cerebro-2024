@@ -62,6 +62,7 @@ const EventPage = () => {
         </div>
         <div className="event-page-cards-container">
         {renderEventCards()}
+        
         </div>
       </div>
     </>

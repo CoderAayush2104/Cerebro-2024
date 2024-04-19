@@ -55,3 +55,21 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--light-blue); 
 }
+
+
+::-moz-scrollbar {
+  width: 10px;
+}
+
+
+
+/* Firefox */
+html {
+  scrollbar-width:thin;
+  
+  scrollbar-color: var(--main-white) var(--background-colour);
+}
+html::-webkit-scrollbar-thumb  {
+  border-radius: 10px; /* Adjust this value as needed */
+}
+

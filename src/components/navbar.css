@@ -1,7 +1,8 @@
 
 
 .navbar{
-    
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
     display: flex;
     justify-content: center;
     gap: 12px;
