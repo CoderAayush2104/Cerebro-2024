@@ -10,17 +10,17 @@ import InterviewBuddy from '../../assets/sponsorsPage/InterviewBuddy_Logo_update
 const sponsorPage=()=>{
 
     return(
-        <div className="py-8 w-full h-auto bg-gray-700 container mx-auto px-4 rounded-2xl my-8" >
-            <div className="flex space-y-4 flex-col content-center justify-center items-center my-8">
+        <div className="py-8 w-full h-auto container mx-auto px-4 rounded-2xl" >
+            <div className="flex space-y-4 flex-col content-center justify-center items-center ">
                 <div className="text-3xl text-orange-500 underline">Event Sponsor</div>
-               <SponsorCard title="Cubelelo" Img={Cubelelo}/> 
-               <SponsorCard title="Interview Buddy" Img={InterviewBuddy} width={400}/>  
-               <SponsorCard title="JDoodle" Img={JDoodle} width={400}/> 
-                <div className="text-3xl text-purple-500 underline">Media Partner</div>
-               <SponsorCard title="EVEPAPER" Img={Evelelo_Light}/> 
-               <SponsorCard title="Noticebard" Img={Noticebard} width={400}/> 
-                <div className="text-3xl text-orange-500 underline">Merch Partner</div>
-               <SponsorCard title="Stubborn Factory" Img={SF}/> 
+               <SponsorCard title="Cubelelo" Img={Cubelelo} width={200}/> 
+               <SponsorCard title="Interview Buddy" Img={InterviewBuddy} width={200}/>  
+               <SponsorCard title="JDoodle" Img={JDoodle} width={200}/> 
+                <div className="text-3xl mt-4 text-purple-400 underline pt-16">Media Partner</div>
+               <SponsorCard title="EVEPAPER" Img={Evelelo_Light} width={200}/> 
+               <SponsorCard title="Noticebard" Img={Noticebard} width={200}/> 
+                <div className="text-3xl mt-4 text-orange-500 underline pt-16">Merch Partner</div>
+               <SponsorCard title="Stubborn Factory" Img={SF} width={200}/> 
             </div>
         </div>
     )
