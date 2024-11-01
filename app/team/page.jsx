@@ -26,7 +26,7 @@ function Team() {
           ].map((event) => (
             <button
               key={event}
-              className={` text-lg md:text-xl px-3 py-2 md:px-4 md:py-2 rounded-md ${activeEvent === event ? "underline underline-offset-4 text-black bg-white rounded-lg shadow-white shadow-md button-active" : ""}`}
+              className={` text-lg md:text-xl px-3 py-2 md:px-4 md:py-2 rounded-md ${activeEvent === event ? "underline underline-offset-4  rounded-lg shadow-md button-active" : ""}`}
               onClick={() => eventHandler(event)}
             >
               {event}

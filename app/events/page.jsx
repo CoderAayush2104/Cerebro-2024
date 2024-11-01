@@ -28,7 +28,7 @@ function Events() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-4  px-4 ">
+    <div className="flex flex-col items-center mt-4  px-4 py-8 ">
       <h1 className="text-center text-4xl text-white">
         EVENTS
       </h1>
@@ -47,7 +47,7 @@ function Events() {
           <button
             key={event}
             className={` md:text-2xl text-lg mx-2 my-2 ${
-              activeEvent === event ? "underline underline-offset-4 text-black bg-white rounded-lg shadow-white shadow-md p-2 button-active" : ""
+              activeEvent === event ? "underline underline-offset-4 rounded-lg shadow-md p-2 button-active" : ""
             }`}
             onClick={() => eventHandler(event)}
           >
