@@ -32,7 +32,7 @@ function Events() {
       <h1 className="text-center text-5xl font-bold mb-12 text-white">
         EVENTS
       </h1>
-      <div className="flex flex-wrap justify-between ">
+      <div className="flex flex-wrap justify-center mt-6 space-x-8 space-y-2">
         {[
           "Signature",
           "Technical",
