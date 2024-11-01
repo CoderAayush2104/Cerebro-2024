@@ -38,28 +38,10 @@ const ProfileCard = (props) => {
               alt="Sample"
               layout="fill"
               objectFit="cover"
-              className="rounded-full"
+              className="rounded-lg"
             />
           </div>
-          {/* Back Side */}
-          <div className="flip-card-image-back absolute inset-0 flex items-center justify-center">
-            <div className="flex space-x-2 sm:space-x-4">
-              <a
-                href="https://www.linkedin.com/in/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faLinkedin} className="text-xl sm:text-2xl text-white" />
-              </a>
-              <a
-                href="https://www.instagram.com/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faInstagram} className="text-xl sm:text-2xl text-white" />
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
       <h1 className="text-lg sm:text-xl font-semibold mt-2 sm:mt-4">{props.name}</h1>

@@ -10,14 +10,17 @@ import InterviewBuddy from '../../assets/sponsorsPage/InterviewBuddy_Logo_update
 const sponsorPage=()=>{
 
     return(
-        <div className="py-8 w-full h-auto bg-[#212121] container mx-auto px-4" >
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 place-content-center">
+        <div className="py-8 w-full h-auto bg-slate-600 container mx-auto px-4 rounded-2xl my-8" >
+            <div className="flex space-y-4 flex-col content-center justify-center items-center my-8">
+                <div className="text-5xl text-orange-500 underline">Event Sponsor</div>
                <SponsorCard title="Cubelelo" Img={Cubelelo}/> 
-               <SponsorCard title="EVEPAPER" Img={Evelelo_Light}/> 
-               <SponsorCard title="JDoodle" Img={JDoodle} width={400}/> 
-               <SponsorCard title="Noticebard" Img={Noticebard} width={400}/> 
-               <SponsorCard title="Stubborn Factory" Img={SF}/> 
                <SponsorCard title="Interview Buddy" Img={InterviewBuddy} width={400}/>  
+               <SponsorCard title="JDoodle" Img={JDoodle} width={400}/> 
+                <div className="text-5xl text-purple-500 underline">Media Partner</div>
+               <SponsorCard title="EVEPAPER" Img={Evelelo_Light}/> 
+               <SponsorCard title="Noticebard" Img={Noticebard} width={400}/> 
+                <div className="text-5xl text-orange-500 underline">Merch Partner</div>
+               <SponsorCard title="Stubborn Factory" Img={SF}/> 
             </div>
         </div>
     )

@@ -32,7 +32,7 @@ function Events() {
       <h1 className="text-center text-5xl font-bold mb-12 text-white">
         EVENTS
       </h1>
-      <div className="flex flex-wrap justify-center md:w-[80%] space-x-10">
+      <div className="flex flex-wrap justify-center md:w-[100%] space-x-10">
         {[
           "Signature",
           "Technical",
@@ -129,11 +129,11 @@ function Events() {
             />
 
             <Card
-              title="RoboQuest"
+              title="Robo Rumble"
               image={roborumble}
               prize="Worth Rs. 19,200+ Prizes"
               description="Unleash Your Innovation! Build robots using any tech stack and hardware in this ultimate robotics showdown. Push the limits of creativity and engineering to craft cutting-edge machines that defy expectations!"
-              link=" https://unstop.com/competitions/gear-up-robot-racing-showdown-cerebro-2024-25-indian-institute-of-information-technology-vadodara-1201160?lb=FKjhO56&utm_medium=Share&utm_source=shortUrl"
+              link="https://unstop.com/o/fXGW8Th?lb=Vw1skaXa"
             />
           </div>
         )}
