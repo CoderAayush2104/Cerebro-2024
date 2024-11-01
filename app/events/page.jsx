@@ -28,11 +28,11 @@ function Events() {
   };
 
   return (
-    <div className="flex flex-col items-center my-16 py-16 px-4 ">
-      <h1 className="text-center text-5xl font-bold mb-12 text-white">
+    <div className="flex flex-col items-center mt-4  px-4 ">
+      <h1 className="text-center text-4xl text-white">
         EVENTS
       </h1>
-      <div className="flex flex-wrap justify-center mt-6 space-x-8 space-y-2">
+      <div className="flex flex-wrap justify-center space-x-8 space-y-2">
         {[
           "Signature",
           "Technical",
@@ -46,8 +46,8 @@ function Events() {
         ].map((event) => (
           <button
             key={event}
-            className={`text-white md:text-2xl text-lg mx-2 my-2 ${
-              activeEvent === event ? "underline underline-offset-4 button-active" : ""
+            className={` md:text-2xl text-lg mx-2 my-2 ${
+              activeEvent === event ? "underline underline-offset-4 text-black bg-white rounded-lg shadow-white shadow-md p-2 button-active" : ""
             }`}
             onClick={() => eventHandler(event)}
           >

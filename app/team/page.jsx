@@ -12,9 +12,9 @@ function Team() {
 
   return (
     <div className="px-4 pb-16">
-      <div className='flex flex-col items-center mt-5'>
+      <div className='flex flex-col items-center mt-4'>
         <h1 className='text-white text-3xl md:text-4xl'>OUR TEAM</h1>
-        <div className="flex flex-wrap justify-center mt-6 space-x-3 space-y-2">
+        <div className="flex flex-wrap justify-center space-x-3 space-y-2">
           {["Inst. Management",
             "Presidents",
             "Web Dev Team",
@@ -26,7 +26,7 @@ function Team() {
           ].map((event) => (
             <button
               key={event}
-              className={`text-white text-lg md:text-xl px-3 py-2 md:px-4 md:py-2 rounded-md ${activeEvent === event ? "underline underline-offset-4 button-active" : ""}`}
+              className={` text-lg md:text-xl px-3 py-2 md:px-4 md:py-2 rounded-md ${activeEvent === event ? "underline underline-offset-4 text-black bg-white rounded-lg shadow-white shadow-md button-active" : ""}`}
               onClick={() => eventHandler(event)}
             >
               {event}
