@@ -348,6 +348,8 @@ function Team() {
             {[
               { name: "Jaydeep Bejoy", position: "Member" },
               { name: "Ansh", position: "Member" },
+              { name: "Soham Haldar", position: "Member" },
+              { name: "Prateek", position: "Member" },
             ].map((profile, index) => (
               <motion.div
                 key={index}

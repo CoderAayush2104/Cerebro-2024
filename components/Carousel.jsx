@@ -23,17 +23,17 @@ function Carousel() {
 
   return (
     <div>
-      <div className='flex flex-row'>
+      <div className='flex flex-row rounded-lg'  >
         {images.map((img, index) => (
-          <div key={index} className='w-1/4 p-2 cursor-pointer' onClick={() => openImage(img)}>
-            <Image src={img} alt={`Carousel Image ${index + 1}`} width={200} height={200} className='object-cover' />
+          <div key={index} className='rounded-lg w-1/4 p-2 cursor-pointer' onClick={() => openImage(img)}>
+            <Image src={img} alt={`Carousel Image ${index + 1}`} width={200} height={200} className='object-cover rounded-lg' />
           </div>
         ))}
       </div>
 
       {selectedImage && (
-        <div className='fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50'>
-          <div className='relative'>
+        <div className='fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 '>
+          <div className='relative '>
             <button onClick={closeImage} className='absolute top-4 right-4 text-white text-2xl'>
               &times;
             </button>
