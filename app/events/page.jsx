@@ -209,7 +209,7 @@ function Events() {
             title="Rubik's Rumble"
             image={RR}
             prize="Worth Rs. 10,000+ Prizes"
-            description="A Battle of Mathematical Minds. Unite your team to tackle challenging problems. Shine bright and prove your mastery in the ultimate math contest!"
+            description="Join the ultimate mathematical showdown! Rubik's Rumble brings together sharp minds to tackle challenging problems in a thrilling team-based competition. Test your skills, think fast, and compete for prizes worth over ₹10,000. Step up, solve, and show the world your mastery!"
             link="https://unstop.com/events/rubiks-rumble-cerebro-2024-25-indian-institute-of-information-technology-vadodara-1184699?lb=FKjhO56&utm_medium=Share&utm_source=shortUrl"
           />
         )}
