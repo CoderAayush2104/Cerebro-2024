@@ -13,6 +13,7 @@ import RevUp from '../../assets/sponsorsPage/RevUp.png';
 import AS from '../../assets/sponsorsPage/AlteredSecurity.png';
 import MX from '../../assets/sponsorsPage/MentorX.png';
 import SE from '../../assets/sponsorsPage/StockEdge.png';
+import BOB from '../../assets/sponsorsPage/BOB.png';
 
 
 import InterviewBuddy from '../../assets/sponsorsPage/InterviewBuddy_Logo_updated_White_BG.png'
@@ -21,6 +22,8 @@ const sponsorPage=()=>{
     return(
         <div className="py-8 w-full h-auto container mx-auto px-4 rounded-2xl" >
             <div className="flex space-y-4 flex-col content-center justify-center items-center ">
+                <div className="text-4xl text-purple-400 underline">Associate Sponsor</div>
+                <SponsorCard title="Bank Of Baroda" Img={BOB} width={200}/> 
                 <div className="text-3xl text-orange-500 underline">Gold Sponsor</div>
                 <SponsorCard title="StockEdge" Img={SE} width={200}/> 
                 <div className="text-3xl mt-4 text-purple-400 underline pt-16">Platform Partner</div>

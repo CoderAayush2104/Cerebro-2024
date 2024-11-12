@@ -5,7 +5,7 @@ import cli3 from '../assets/LandingArea/cli2.svg';
 import cli4 from '../assets/LandingArea/cli3.svg';
 import cli5 from '../assets/LandingArea/cli4.svg';
 import cli1 from '../assets/LandingArea/cli5.svg';
-import coi from '../assets/LandingArea/COI.svg';
+import coi from '../assets/LandingArea/COIMainTextt.svg';
 import cyborg from '../assets/LandingArea/Cyborg.png';
 import Image from 'next/image';
 import { gsap } from 'gsap';
@@ -76,9 +76,9 @@ function LandingArea() {
   return (
     <div className="relative min-h-[80vh]">
       {/* Top Layer */}
-      <div className="absolute inset-0 topLayer z-0">
+      <div className="absolute inset-0 topLayer z-0 ">
         <div className="absolute w-screen content-center top-0 left-0 h-full flex flex-col items-center justify-center">
-          <div className="relative w-full h-full flex justify-center items-center">
+          <div className="relative w-full h-full flex justify-center items-center ">
             <Image
               src={cyborg}
               alt="Cyborg"
@@ -93,7 +93,7 @@ function LandingArea() {
           </div>
         </div>
         <div
-          className="absolute bottom-0 right-0 w-full h-full flex justify-center items-center"
+          className="absolute bottom-0 right-0 w-full h-full flex justify-center items-center translate-y-10 "
           ref={(el) => (topLayerRefs.current[1] = el)}
         >
           <Image
@@ -101,17 +101,17 @@ function LandingArea() {
             alt="COI"
             layout="fill"
             objectFit="contain"
-            className="object-contain"
+            className="object-contain  translate-y-3"
           />
         </div>
       </div>
 
       {/* Bottom Layer */}
-      <div className="relative -z-10 flex flex-col justify-center">
+      <div className="relative -z-10 flex flex-col justify-center ">
         {desktopImages.map((image, index) => (
           <motion.div
             key={index}
-            className="p-6 max-[1050px]:px-3"
+            className="p-6 max-[1050px]:px-3 "
             ref={(el) => (imageRefs.current[index] = el)}
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -120,7 +120,7 @@ function LandingArea() {
             <Image
               src={image}
               alt={`Client ${index + 1}`}
-              className="w-full"
+              className="w-full "
             />
           </motion.div>
         ))}
