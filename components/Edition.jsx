@@ -31,7 +31,7 @@ function Edition() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-         Fast forward to 2024, and Cerebro is no longer a beta test—it’s a full-scale intellectual spectacle. What started as a scramble has evolved into a finely tuned, 7-day marathon of innovation and ideas. With the theme "Clash of Intellects: Human vs AI," this year promises to be bigger, louder, and smarter. We're expecting 4000+ participants from across India, battling it out in 15 signature events for a share of over 90,000+ in prizes. If you thought the first edition was chaotic, buckle up, because this one is going to be legendary.
+         Fast forward to 2024, and Cerebro is no longer a beta test—it’s a full-scale intellectual spectacle. What started as a scramble has evolved into a finely tuned, 7-day marathon of innovation and ideas. With the theme "Clash of Intellects: Human vs AI," this year promises to be bigger, louder, and smarter. We're expecting 4000+ participants from across India, battling it out in 15 signature events for a share of over Rs 90,000+ in prizes. If you thought the first edition was chaotic, buckle up, because this one is going to be legendary.
         </div>
 
         <div className='w-full h-[3px] mb-12 bg-white'></div>
